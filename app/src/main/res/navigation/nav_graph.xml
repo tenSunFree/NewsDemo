@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by Rafsan Ahmad on 9/27/21, 5:30 PM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  */
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/fragment_standard">
+
+
+    <fragment
+        android:id="@+id/fragment_standard"
+        android:name="com.example.newsdemo.standard.StandardFragment"
+        android:label="StandardFragment" />
+
+    <fragment
+        android:id="@+id/fragment_ai"
+        android:name="com.example.newsdemo.ai.AiFragment"
+        android:label="AiFragment" />
+
+    <fragment
+        android:id="@+id/fragment_square"
+        android:name="com.example.newsdemo.square.SquareFragment"
+        android:label="SquareFragment" />
+
+    <fragment
+        android:id="@+id/fragment_news"
+        android:name="com.example.newsdemo.news.NewsFragment"
+        android:label="NewsFragment" />
+
+    <fragment
+        android:id="@+id/fragment_mine"
+        android:name="com.example.newsdemo.mine.MineFragment"
+        android:label="MineFragment" />
+</navigation>

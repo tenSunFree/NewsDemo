@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_standard"
+        android:icon="@drawable/ic_standard_24"
+        android:title="行情" />
+
+    <item
+        android:id="@+id/fragment_ai"
+        android:icon="@drawable/ic_ai_24"
+        android:title="AI" />
+
+    <item
+        android:id="@+id/fragment_square"
+        android:icon="@drawable/ic_square_24"
+        android:title="廣場" />
+
+    <item
+        android:id="@+id/fragment_news"
+        android:icon="@drawable/ic_news_24"
+        android:title="快訊" />
+
+    <item
+        android:id="@+id/fragment_mine"
+        android:icon="@drawable/ic_mine_24"
+        android:title="我的" />
+</menu>
